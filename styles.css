@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+}
+.left,.right{
+    height: 420px;
+    width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 60px;
+
+}
+.left{
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.perfume{
+    font-family: 'Fraunces';
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    color:  hsl(228, 12%, 48%);
+}
+h1{
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-weight: 500,700;
+}
+.info{
+    margin-left: 20px;
+    color:  hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+.rate{
+    display: flex;
+}
+.newPrice{
+    color: hsl(158, 36%, 37%);
+}
+.oldRate{
+    margin-left: 25px;
+    margin-top: 30px;
+    color:  hsl(228, 12%, 48%);
+}
+.btn{
+    border: none;
+    display: flex;
+    background-color:hsl(158, 36%, 37%);
+    height: 50px;
+    width: 200px;
+    margin-left: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background:hsl(158, 56%, 22%) ;
+}
+svg{
+    margin-top: 15px;
+    margin-left: 50px;
+
+}
+h3{
+    color: white;
+    margin-left: 10px;
+}
+.overAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width:375px) {
+    .overAll{
+        flex-direction: column;
+    }
+    .right{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .left{
+        margin-top: 20px;
+    }
+    
+}
